@@ -15,22 +15,21 @@ Redirections: Supports input (<) and output (>) redirections.
 Pipelining: Executes commands connected via pipes (|).
 
 Built-in Commands:
-
+```
 cd <directory>: Changes the working directory.
 
 history: Displays the last 10 executed commands.
 
 !! and !<num>: Executes the last or a specific command from history.
 
-```procs: Lists active processes.
+procs: Lists active processes.
 
 stop <pid>: Suspends a process.
 
 wake <pid>: Resumes a suspended process.
 
 term <pid>: Terminates a process. 
-
-Debug Mode: Displays process information when enabled. ```
+```
 
 Compilation & Execution
 
@@ -41,7 +40,7 @@ GCC compiler
 Linux environment
 
 Compilation:
-```Make```
+**Make**
 
 Running the Shell:
-```./myshell ```
+**./myshell**
